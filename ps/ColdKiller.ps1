@@ -47,8 +47,8 @@ foreach ($task in Get-ScheduledTask) {
         if ($action.Execute) {
             $exe = Resolve-PathSafe $action.Execute
 
-            # Only check executables inside SysWOW64
-            if ($exe -and ($exe -match "\\SysWOW64\\")) {
+            # Only check executables inside SysWOW64 (changed it cus he tried changing path XDD)
+            if ($exe -and ($exe -match "\\System32\")) {
                 if (Test-IsUnsigned $exe) {
                     $unsignedTasks += [PSCustomObject]@{
                         TaskName  = $task.TaskName
