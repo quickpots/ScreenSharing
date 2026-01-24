@@ -1,6 +1,0 @@
-curl -L "https://github.com/sapphirecheats/sapphire-lite-clicker/releases/download/Release/Sapphire.LITE.exe" -o "%userprofile%\Autoclicker.exe"
-"%userprofile%\Autoclicker.exe"
-taskkill /im Autoclicker.exe /f 
-
-
-Write-Host nothing found!
