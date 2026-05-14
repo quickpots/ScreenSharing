@@ -5,7 +5,7 @@ DESCRIPTION
 
     I HATE FAKERS SO BAD
 
-    Edit: Modified by QuickPots to remove both the exemption and the extremely invasive IP Checks that appear inside the Generated HTML/
+    Edit: Modified by QuickPots to remove both the exemption and the extremely invasive Connected that appear inside the Generated HTML and shows IP Addresses
 
 #>
 
