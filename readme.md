@@ -1,9 +1,3 @@
-rahhh random scripts
-
-
-most of these arent 100% mine.
-
-
 ## Task Scheduler
 
 ```powershell
