@@ -18,3 +18,12 @@ powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powersh
 ```
 
 Credits to: Lilith (https://github.com/praiselily/lilith-ps) for making the previous version.
+
+## Loaded DLL Signature Check
+
+```powershell
+powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/quickpots/ScreenSharing/refs/heads/main/ps/LoadedModules.ps1)
+```
+
+Credits to: Me
+
