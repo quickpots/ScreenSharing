@@ -1,4 +1,4 @@
-# SCREEENSHARING SCRIPTS
+# SCREENSHARING SCRIPTS
 
 Be sure to Join Druid SS for updates on new tools:
 https://discord.gg/DvdWgcpbkp
