@@ -1,3 +1,8 @@
+# SCREEENSHARING SCRIPTS
+
+Be sure to Join Druid SS for updates on new tools:
+https://discord.gg/DvdWgcpbkp
+
 ## Task Scheduler
 
 ```powershell
