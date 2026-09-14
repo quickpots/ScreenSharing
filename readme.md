@@ -30,7 +30,7 @@ Credits to: Me
 ## SS Start Script
 
 ```powershell
-powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/quickpots/ScreenSharing/refs/heads/main/ps/everything.ps1)
+powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/quickpots/ScreenSharing/refs/heads/main/ps/Start.ps1)
 ```
 
-Credits to: ??? (Genuinely forgot who made the original, DM me at "mcvitiesbiscuit" on discord if it was you) + Me (modified)
+Credits to: Me
