@@ -209,6 +209,13 @@ $settings = @(
         Key = "EnableActivityFeed"
         Warning = "Disabled"
         Safe = "Enabled"
+    },
+    @{
+        Name = "Prefetch"
+        Path = "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters"
+        Key = "EnablePrefetcher"
+        Warning = "Disabled"
+        Safe = "Enabled"
     }
 )
 
