@@ -1,5 +1,5 @@
 Clear-Host
-$host.ui.RawUI.WindowTitle = "Windows Activity & Integrity Check - https://discord.gg/DvdWgcpbkp"
+$host.ui.RawUI.WindowTitle = "Basic Checks - https://discord.gg/DvdWgcpbkp"
 
 Write-Host @"
    ____        _      _    _____      _          _____ _____ 
@@ -88,8 +88,6 @@ $formattedBootTime = $lastBootTime.ToString("yyyy-MM-dd hh:mm tt")
 
 Write-Host "PC BOOTED AT: " -NoNewline -ForegroundColor Cyan
 Write-Host $formattedBootTime -ForegroundColor Yellow
-
-Write-Host ""
 
 
 # recycle bin
@@ -288,7 +286,5 @@ catch {
 }
 
 
-Write-Host ""
 Write-Host "Press enter to exit..." -ForegroundColor Yellow
 Read-Host
-```
