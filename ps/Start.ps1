@@ -1,4 +1,3 @@
-```powershell
 Clear-Host
 $host.ui.RawUI.WindowTitle = "Basic Checks - https://discord.gg/DvdWgcpbkp"
 
@@ -316,4 +315,4 @@ catch {
 Write-Host ""
 Write-Host "Press enter to exit..." -ForegroundColor Yellow
 Read-Host
-```
+
