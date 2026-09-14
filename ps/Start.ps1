@@ -149,7 +149,7 @@ Write-Host ""
 Write-Host "[ SERVICES ]" -ForegroundColor Cyan
 Write-Host ""
 
-$services = 'SysMain','PcaSvc','DPS','EventLog','Schedule','WSearch','BAM','DusmSvc','Appinfo'
+$services = 'SysMain','DiagTrack','PcaSvc','DPS','EventLog','Schedule','WSearch','BAM','DusmSvc','Appinfo'
 
 $all = $services + ((Get-Service | Where-Object {
     $_.Name -like 'CDPUserSvc_*'
