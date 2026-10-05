@@ -1,4 +1,3 @@
-```powershell
 Clear-Host
 $host.ui.RawUI.WindowTitle = "Scheduled Task Parser - https://discord.gg/DvdWgcpbkp"
 
@@ -22,9 +21,6 @@ timeout /t 5 | out-null
 $UserCurrent = $Env:Username
 
 Start-Sleep -Seconds 1
-Write-Host "Optimized just a wee bit more by QuickPots (Silly Yapper & Chronic SSer)" -ForegroundColor Red
-Write-Host "Code includes pieces from Lilith (added signatures) and Nolw (made most of the script) with improved suspicious files and additional columns." -ForegroundColor Red 
-Write-Host "Analyzing scheduled tasks..." -ForegroundColor Red
 Start-Sleep -Seconds 1
 
 
@@ -166,4 +162,3 @@ else {
 Write-Host ""
 Write-Host "Press enter to exit..." -ForegroundColor Yellow
 Read-Host
-```
